@@ -88,7 +88,7 @@ namespace asm4._1_2.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Book book)
+        public async Task<IActionResult> Edit(Book book,IFormFile imageUrl)
         {
             if (bookList != null)
             {
@@ -100,7 +100,8 @@ namespace asm4._1_2.Controllers
                         editBook.description = book.description;
                         editBook.author = book.author;
                         editBook.price = book.price;
-                        editBook.imageUrl = book.imageUrl;
+                        editBook.imageUrl = await SaveImage(imageUrl);
+                        break;
                     }
                 }
             }

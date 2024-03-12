@@ -17,7 +17,7 @@ else
     
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="title" class="control-label">Title</label>
@@ -34,53 +34,18 @@ else
                     <label asp-for="imageUrl" class="control-label">Poster</label>
 
                     <div class="input-group">
-                        <input asp-for="imageUrl" class="form-control" accept="image/*" placeholder="Choose image from your computer or link from Internet" required />
+                        <input asp-for="imageUrl" class="form-control" accept="image/*" type="file" 
+                        placeholder="Choose image from your computer or link from Internet" required
+                               id="imageUrlInput" />
                         <div class="input-group-append">
-                            <label class="input-group-text" for="imageInput">Chọn ảnh</label>
-                            <input type="file" id="imageInput" style="display: none;" onchange="updateImageUrl(this)" />
                         </div>
                     </div>
 
                     <span asp-validation-for="imageUrl" class="text-danger"></span>
-                    <img id="imagePreview" src="@Model.imageUrl" alt="@Model.imageUrl" style=" width: 200px; margin-top: 10px;" />
+                    <img id="previewImage" src="@Model.imageUrl" alt="@Model.imageUrl"
+                         style=" width: 200px; margin-top: 10px;" />
                 </div>
-
-                <script>
-                    function updateImageUrl(input) {
-                        var imageUrlInput = document.getElementById('imageUrl');
-                        var imageInput = document.getElementById('imageInput');
-                        var imagePreview = document.getElementById('imagePreview');
-
-                        imageUrlInput.value = ''; // Clear the current value
-
-                        if (input.files && input.files[0]) {
-                            var reader = new FileReader();
-
-                            reader.onload = function (e) {
-                                imageUrlInput.value = e.target.result;
-                                imagePreview.src = e.target.result;
-                                imagePreview.style.display = 'block';
-                            };
-
-                            reader.readAsDataURL(input.files[0]);
-                        }
-                    }
-
-                    document.getElementById('imageUrl').addEventListener('input', function () {
-                        var imageUrlInput = document.getElementById('imageUrl');
-                        var imagePreview = document.getElementById('imagePreview');
-
-                        imageUrlInput.value = this.value; // Set the value
-
-                        if (this.value) {
-                            imagePreview.src = this.value;
-                            imagePreview.style.display = 'block';
-                        } else {
-                            imagePreview.src = '#';
-                            imagePreview.style.display = 'none';
-                        }
-                    });
-                </script>
+                
 
                 <div class="form-group">
                     <label asp-for="price" class="control-label">Price</label>
@@ -106,4 +71,29 @@ else
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Sự kiện khi trường input thay đổi
+            $("#imageUrlInput").change(function () {
+                var input = this;
+
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        // Lấy dữ liệu hình ảnh được chọn
+                        var imageUrl = e.target.result;
+
+                        // Cập nhật đường dẫn ảnh trên trang
+                        $("#previewImage").attr("src", imageUrl);
+                        $("#previewImage").attr("alt", imageUrl);
+                    };
+
+                    // Đọc dữ liệu của file hình ảnh
+                    reader.readAsDataURL(input.files[0]);
+                }
+            });
+        });
+    </script>
 }

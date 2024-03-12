@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj": {}
+    "E:\\dauvannghia\\CODING\\Web\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj": {}
   },
   "projects": {
-    "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj": {
+    "E:\\dauvannghia\\CODING\\Web\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj",
+        "projectUniqueName": "E:\\dauvannghia\\CODING\\Web\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj",
         "projectName": "asm4.1_2",
-        "projectPath": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj",
-        "packagesPath": "C:\\Users\\zafus\\.nuget\\packages\\",
-        "outputPath": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\obj\\",
+        "projectPath": "E:\\dauvannghia\\CODING\\Web\\asm4.1_2\\asm4.1_2\\asm4.1_2.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\dauvannghia\\CODING\\Web\\asm4.1_2\\asm4.1_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zafus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
