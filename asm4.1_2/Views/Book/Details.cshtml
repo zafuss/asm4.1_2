@@ -1,0 +1,53 @@
+﻿@model asm4._1_2.Models.Book
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detail of @Model.title</h1>
+
+<div>
+
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2" style="display: flex; align-items: center">
+            <div>
+
+           Poster
+            </div>
+        </dt>
+        <dd class="col-sm-10">
+            <img style="max-width: 25%" src="@Html.DisplayFor(model => model.imageUrl)" alt="@Model.title" />
+        </dd>
+
+        <dt class="col-sm-2">
+          Title
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.title)
+        </dd>
+        <dt class="col-sm-2">
+          Description
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.description)
+        </dd>
+        <dt class="col-sm-2">
+           Price
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.price)
+        </dd>
+        <dt class="col-sm-2">
+           Author
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.author)
+        </dd>
+    </dl>
+</div>
+<div>
+  
+    <a asp-action="Index">Back to List</a>
+</div>

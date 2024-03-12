@@ -7,28 +7,36 @@
       "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|z:\\development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A77C15-1FB8-460D-8E0D-48FF80CCADE0}|asm4.1_2\\asm4.1_2.csproj|solutionrelative:asm4.1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,73 +56,100 @@
               "RelativeDocumentMoniker": "asm4.1_2\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "asm4.1_2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABvAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwC4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-12T11:03:18.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Edit.cshtml",
-              "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Edit.cshtml",
-              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Edit.cshtml",
-              "RelativeToolTip": "asm4.1_2\\Views\\Book\\Edit.cshtml",
-              "ViewState": "AQIAAAwAAAAAuDIzMzP7v0EAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T02:21:22.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Create.cshtml",
-              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "asm4.1_2\\Views\\Book\\Create.cshtml",
-              "ViewState": "AQIAAE8AAABgZmZmZmYEwFcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T01:32:45.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Program.cs",
-              "RelativeDocumentMoniker": "asm4.1_2\\Program.cs",
-              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Program.cs",
-              "RelativeToolTip": "asm4.1_2\\Program.cs",
-              "ViewState": "AQIAABAAAABgmZmZmVkqwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:06:02.904Z",
+              "WhenOpened": "2024-03-12T16:01:30.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Details.cshtml",
+              "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Details.cshtml",
+              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Details.cshtml",
+              "RelativeToolTip": "asm4.1_2\\Views\\Book\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T15:50:04.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Index.cshtml",
               "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Index.cshtml",
               "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Index.cshtml",
               "RelativeToolTip": "asm4.1_2\\Views\\Book\\Index.cshtml",
-              "ViewState": "AQIAABUAAABAamZmZiYgwCgAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-08T16:05:51.282Z",
+              "WhenOpened": "2024-03-12T14:48:50.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Delete.cshtml",
+              "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Delete.cshtml",
+              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Delete.cshtml",
+              "RelativeToolTip": "asm4.1_2\\Views\\Book\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T14:46:08.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BookController.cs",
               "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "asm4.1_2\\Controllers\\BookController.cs",
               "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Controllers\\BookController.cs",
               "RelativeToolTip": "asm4.1_2\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAAIAAAAAdGZmZmb0vzQAAAARAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwEAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T16:00:01.721Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "asm4.1_2\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T02:21:22.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "asm4.1_2\\Views\\Book\\Create.cshtml",
+              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "asm4.1_2\\Views\\Book\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T01:32:45.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Program.cs",
+              "RelativeDocumentMoniker": "asm4.1_2\\Program.cs",
+              "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Program.cs",
+              "RelativeToolTip": "asm4.1_2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T16:06:02.904Z"
             },
             {
               "$type": "Document",
@@ -124,9 +159,10 @@
               "RelativeDocumentMoniker": "asm4.1_2\\Models\\Book.cs",
               "ToolTip": "Z:\\Development\\asp_dotnet\\asm4.1_2\\asm4.1_2\\Models\\Book.cs",
               "RelativeToolTip": "asm4.1_2\\Models\\Book.cs",
-              "ViewState": "AQIAAAQAAAAAm5mZmZkOwA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T15:59:10.133Z"
+              "WhenOpened": "2024-03-08T15:59:10.133Z",
+              "EditorCaption": ""
             }
           ]
         }

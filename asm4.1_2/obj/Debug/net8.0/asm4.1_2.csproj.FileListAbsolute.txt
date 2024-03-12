@@ -223,3 +223,4 @@ Z:\Development\asp_dotnet\asm4.1_2\asm4.1_2\obj\Debug\net8.0\refint\asm4.1_2.dll
 Z:\Development\asp_dotnet\asm4.1_2\asm4.1_2\obj\Debug\net8.0\asm4.1_2.pdb
 Z:\Development\asp_dotnet\asm4.1_2\asm4.1_2\obj\Debug\net8.0\asm4.1_2.genruntimeconfig.cache
 Z:\Development\asp_dotnet\asm4.1_2\asm4.1_2\obj\Debug\net8.0\ref\asm4.1_2.dll
+Z:\Development\asp_dotnet\asm4.1_2\asm4.1_2\obj\Debug\net8.0\asm4.1_2.sourcelink.json

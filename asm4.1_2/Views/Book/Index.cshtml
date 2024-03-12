@@ -6,19 +6,15 @@
 }
 
 <h1>Our Books</h1>
-<style>
-    .img {
-        width: 25%;
-    }
-</style>
+
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Add new book</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th class="img">
+            <th >
                 Poster
             </th>
             <th>
@@ -42,8 +38,8 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td class="img">
-                    <img src="@Html.DisplayFor(modelItem => item.imageUrl)" alt="Image" class="img-thumbnail">
+                <td >
+                    <img style="width: 200px" src="@Html.DisplayFor(modelItem => item.imageUrl)" alt="Image">
                 </td>
                 <td style="width: 13%">
                     @Html.DisplayFor(modelItem => item.title)
@@ -57,10 +53,12 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.author)
                 </td>
-                <td style="width: 13%">
-                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
-                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                <td style="width: 20%">
+                    
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-warning" }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "btn btn-primary" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-danger" })
+
                 </td>
             </tr>
         }

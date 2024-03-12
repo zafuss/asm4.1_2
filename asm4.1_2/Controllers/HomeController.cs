@@ -28,5 +28,18 @@ namespace asm4._1_2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        private async Task<string> SaveImage(IFormFile image)
+        {
+            var uniqueFileName = $"{Guid.NewGuid()}_{image.FileName}";
+            var savePath = Path.Combine("wwwroot/images", uniqueFileName);
+
+            using (var fileStream = new FileStream(savePath, FileMode.Create))
+            {
+                await image.CopyToAsync(fileStream);
+            }
+
+            return $"/images/{uniqueFileName}"; // Tr? v? ???ng d?n t??ng ??i
+        }
     }
 }

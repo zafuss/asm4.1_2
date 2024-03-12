@@ -7,7 +7,6 @@
 
 <h1>Edit</h1>
 
-<h4>Book</h4>
 <hr />
 @if (ViewBag.Message != null)
 {
@@ -43,7 +42,7 @@ else
                     </div>
 
                     <span asp-validation-for="imageUrl" class="text-danger"></span>
-                    <img id="imagePreview" src="#" alt="Image preview" style="display: none; max-width: 100%; margin-top: 10px;" />
+                    <img id="imagePreview" src="@Model.imageUrl" alt="@Model.imageUrl" style=" width: 200px; margin-top: 10px;" />
                 </div>
 
                 <script>
