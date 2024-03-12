@@ -1,0 +1,104 @@
+﻿@model asm4._1_2.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Book</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="title" class="control-label">Title</label>
+                <input asp-for="title" class="form-control" required />
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label">Description</label>
+                <input asp-for="description" class="form-control" required />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="imageUrl" class="control-label">Poster</label>
+
+                <div class="input-group">
+                    <input asp-for="imageUrl" class="form-control" accept="image/*" placeholder="Choose image from your computer or link from Internet" required />
+                    <div class="input-group-append">
+                        <label class="input-group-text" for="imageInput">Chọn ảnh</label>
+                        <input type="file" id="imageInput" style="display: none;" onchange="updateImageUrl(this)" />
+                    </div>
+                </div>
+
+                <span asp-validation-for="imageUrl" class="text-danger"></span>
+                <img id="imagePreview" src="#" alt="Image preview" style="display: none; max-width: 100%; margin-top: 10px;" />
+            </div>
+
+            <script>
+                function updateImageUrl(input) {
+                    var imageUrlInput = document.getElementById('imageUrl');
+                    var imageInput = document.getElementById('imageInput');
+                    var imagePreview = document.getElementById('imagePreview');
+
+                    imageUrlInput.value = ''; // Clear the current value
+
+                    if (input.files && input.files[0]) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            imageUrlInput.value = e.target.result;
+                            imagePreview.src = e.target.result;
+                            imagePreview.style.display = 'block';
+                        };
+
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                }
+
+                document.getElementById('imageUrl').addEventListener('input', function () {
+                    var imageUrlInput = document.getElementById('imageUrl');
+                    var imagePreview = document.getElementById('imagePreview');
+
+                    imageUrlInput.value = this.value; // Set the value
+
+                    if (this.value) {
+                        imagePreview.src = this.value;
+                        imagePreview.style.display = 'block';
+                    } else {
+                        imagePreview.src = '#';
+                        imagePreview.style.display = 'none';
+                    }
+                });
+            </script>
+
+            <div class="form-group">
+                <label asp-for="price" class="control-label">Price</label>
+                <input asp-for="price" class="form-control" required />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="author" class="control-label">Author</label>
+                <input asp-for="author" class="form-control" required />
+                <span asp-validation-for="author" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
